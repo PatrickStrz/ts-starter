@@ -2,6 +2,14 @@
   "defaultSeverity": "error",
   "extends": ["tslint:recommended"],
   "jsRules": {},
-  "rules": {},
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "triple-equals": true,
+    "no-console": false,
+    "semicolon": false,
+    "object-literal-sort-keys": false
+  },
   "rulesDirectory": []
 }
